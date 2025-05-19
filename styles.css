@@ -251,3 +251,39 @@ li:not(:first-child) span {
         margin-top: 10px;
     }
 }
+
+#game-popover {
+    padding: 1rem;
+    border: 2px solid #7f1414;
+    border-radius: 12px;
+    background-color: white;
+    color: black;
+    max-width: 300px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#game-popover button{
+    margin-top: 1vw;
+}
+
+.popover-center {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 100;
+    background: white;
+    padding: 1.5rem;
+    border-radius: 12px;
+    border: 2px solid #7f1414;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    max-width: 90%;
+    width: 300px;
+    text-align: center;
+}
+
+/* Optional: darken background */
+.popover-center::backdrop {
+    background: rgba(0, 0, 0, 0.3);
+}

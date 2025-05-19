@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Speed Typing Game</title>
+    <title>Brain Rot Typing Game</title>
     <link rel="stylesheet" href="styles.css">
     <script src="main.js" defer></script>
     <script type="module" src="assets/model-viewer.min.js"></script>
@@ -14,9 +14,9 @@
 <body>
     <div class="wrapper">
         <div class="model-wrapper">
-            <model-viewer src="assets/tung_sahur_game_3d_model_no_ai_free_download.glb  " id="model"
-                ios-src="https://modelviewer.dev/shared-assets/models/Astronaut.usdz" alt="A 3D model of an astronaut"
-                ar auto-rotate camera-controls></model-viewer>
+            <model-viewer src="assets/models/sahur.glb" id="model" alt="A 3D model of an astronaut" ar auto-rotate
+                camera-controls>
+            </model-viewer>
         </div>
         <input type="text" class="input-field">
         <div class="content-box">
@@ -26,31 +26,24 @@
             <div class="content">
                 <ul class="result-details">
                     <li class="time">
-                        <p>
-                            Time Left:
-                        </p>
-                        <span><b>60</b>s</span>
+                        <p>Time Left:</p>
+                        <span><b>30</b>s</span>
                     </li>
-                    <li class="mistake">
-                        <p>
-                            Mistakes:
-                        </p>
+                    <li class="score">
+                        <p>Score:</p>
                         <span>0</span>
                     </li>
                     <li class="wpm">
-                        <p>
-                            WPM:
-                        </p>
-                        <span>0</span>
-                    </li>
-                    <li class="cpm">
-                        <p>
-                            CPM:
-                        </p>
+                        <p>WPM:</p>
                         <span>0</span>
                     </li>
                 </ul>
                 <button>Try Again</button>
+                <div id="game-popover" class="popover-center" popover>
+                    <h2>Session Ended</h2>
+                    <p id="popover-message"></p>
+                    <button popovertarget="game-popover" popovertargetaction="hide">Close</button>
+                </div>
             </div>
         </div>
     </div>
