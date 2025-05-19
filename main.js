@@ -16,6 +16,7 @@ const tryAgainBtn = document.querySelector(".content button");
 const timeTag = document.querySelector(".time span b");
 const wpmTag = document.querySelector(".wpm span");
 const scoreTag = document.querySelector(".score span");
+const cpmTag = document.querySelector(".cpm span");
 const modelWrapper = document.querySelector(".model-wrapper");
 
 let timer;
@@ -118,12 +119,16 @@ function initTyping(e) {
   updateWPM();
 }
 
-
 function updateWPM() {
   totalElapsedTime = maxTime - timeLeft;
-  wpm = Math.round((totalCharsTyped / 5 / totalElapsedTime) * 60);
-  wpm = wpm < 0 || !wpm || wpm === Infinity ? 0 : wpm;
+  const minutes = totalElapsedTime / 60;
+  const correctChars = score;
+
+  wpm = Math.round((correctChars / 5 / minutes) || 0);
+  const cpm = Math.round((correctChars / minutes) || 0);
+
   wpmTag.innerText = wpm;
+  cpmTag.innerText = cpm;
 }
 
 function loadNextParagraph() {
@@ -159,6 +164,7 @@ function resetGame() {
   loadParagraph();
   inpField.disabled = false;
   wpmTag.innerText = 0;
+  cpmTag.innerText = 0;
 }
 
 function showPopover(message) {
