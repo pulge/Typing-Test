@@ -27,12 +27,6 @@ Welcome to the **Speed Typing Game**, a web-based application designed to test a
 
 - **Frontend**: HTML, CSS, JavaScript
 
-## 🖼️ Screenshots
-
-![Screenshot 2024-06-01 234109](https://github.com/KDvs123/Typing-Test/assets/119438971/a705f0dc-9dfd-4b9f-8195-9b20dcf0420d)
-![Screenshot 2024-06-01 234223](https://github.com/KDvs123/Typing-Test/assets/119438971/8c507067-1bea-4ed5-b4ad-b3bf6431a7a2)
-
-
 ## 🚀 Getting Started
 
 ### 📋 Prerequisites
@@ -73,7 +67,7 @@ For any questions or suggestions, feel free to reach out:
 - 📧 Email: vihangasupasan2001@gmail.com
 - 🐙 GitHub: [KDvs123](https://github.com/KDvs123)
 
-- Forked and Added by notkawie
+- Forked and added features by [notkawie](https://github.com/notkawie) and [pulge](https://github.com/pulge)
 
 ---
 
