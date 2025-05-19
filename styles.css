@@ -24,7 +24,7 @@ body {
 
 #model {
     width: 100%;
-    height: 20vw;
+    height: 23vw;
 }
 
 #paragraph {
@@ -89,6 +89,7 @@ body {
 .typing-text p span {
     position: relative;
     color: #ccced1;
+    font-size: 1.5rem;
 }
 
 .typing-text p span.correct {
@@ -161,6 +162,7 @@ body {
     align-items: center;
     width: calc(100% - 140px);
     justify-content: space-between;
+    padding-left: 1vw;
 }
 
 .result-details li {
@@ -176,13 +178,12 @@ body {
     h1-left: 2px solid #bfbfbf;
 }
 
-.result-details li p {
-    font-size: 13px;
+.result-details li p, span {
+    font-size: 1.2rem;
 }
 
 .result-details li span {
     display: block;
-    font-size: 13px;
     margin-left: 10px;
 }
 

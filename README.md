@@ -13,30 +13,19 @@ Welcome to the **Speed Typing Game**, a web-based application designed to test a
 
 1. Start typing the displayed paragraph in the input field as accurately and quickly as possible.
 2. Keep an eye on the timer, your typing speed (WPM), and your accuracy (CPM) as you type.
-3. Once the time is up or the paragraph is completed, your final speed, accuracy, and the number of mistakes will be displayed.
+3. Once the time is up or the paragraph is completed, your final speed, and accuracy will be displayed.
 4. Click the "Try Again" button to reset the game and try a different paragraph.
 
 ## 🌟 Features
 
 - **Paragraphs for Typing**: Randomly selected paragraphs for each game session to keep the challenge fresh.
-- **Real-time Feedback**: Immediate feedback on typing speed (WPM), accuracy (CPM), and mistakes.
+- **Real-time Feedback**: Immediate feedback on typing speed (WPM), accuracy (CPM), and Brain Rot Characters.
 - **Countdown Timer**: A 60-second timer to add urgency and challenge to the game.
 - **Try Again Button**: Easily reset the game to start a new typing challenge.
 
 ## 🛠️ Tech Stack
 
 - **Frontend**: HTML, CSS, JavaScript
-
-
-## 📺 Demo Video
-
-Watch the demo video to see Summize in action:
-
-
-
-
-https://github.com/KDvs123/Typing-Test/assets/119438971/655ed4be-9fad-4160-b9fc-e6f57341f093
-
 
 ## 🖼️ Screenshots
 
@@ -62,13 +51,6 @@ Make sure you have the following installed on your local machine:
 
 2. **Open the `index.html` file in your preferred web browser.**
 
-## 📂 Project Structure
-
-![Screenshot 2024-06-01 225411](https://github.com/KDvs123/Dictionary/assets/119438971/d9872628-f467-4de4-aace-34157e1d4506)
-
-
-
-
 ## 🤝 Contributing
 
 Contributions are welcome! Please follow these steps to contribute:
@@ -90,6 +72,8 @@ For any questions or suggestions, feel free to reach out:
 
 - 📧 Email: vihangasupasan2001@gmail.com
 - 🐙 GitHub: [KDvs123](https://github.com/KDvs123)
+
+- Forked and Added by notkawie
 
 ---
 
